@@ -1,0 +1,15 @@
+.link {
+    color: var(--cor-texto);
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.linkDestacado {
+    color: var(--cor-secundaria);
+}
+
+.link:hover {
+    scale: 1.5;
+    transition: 0.2s;
+}

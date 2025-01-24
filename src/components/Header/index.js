@@ -1,18 +1,27 @@
-import { Link } from 'react-router-dom';
 import styles from './Header.module.css';
+import MenuLink from '../HeaderLink';
 function Header() {
+
     return (
         <header>
-            <div>
+            <div className={styles.logo}>
                 <p>SÃO PAULO FC</p>
                 <img src='/images/logotipo-spfc.png' alt='Logo'></img>
             </div>
 
             <nav>
-                <Link className={styles.link} href='/'>Inicio</Link>
-                <Link className={styles.link} href='/'>Sobre</Link>
-                <Link className={styles.link} href='/'>Elenco</Link>
-                <Link className={styles.link} href='/'>Jogos</Link>
+                <MenuLink to = '/'>
+                    Início
+                </MenuLink>
+                <MenuLink to = '/sobre'>
+                    Sobre
+                </MenuLink>
+                <MenuLink to = '/elenco'>
+                    Elenco
+                </MenuLink>
+                <MenuLink to = '/jogos'>
+                    Jogos
+                </MenuLink>
             </nav>
         </header>
     )

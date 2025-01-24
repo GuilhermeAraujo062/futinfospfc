@@ -3,3 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --cor-primaria: #181E27;
+  --cor-secundaria: #f70f2a;
+  --cor-texto: #ffffff;
+  --font-padrao: "Merriweather", serif;
+}
