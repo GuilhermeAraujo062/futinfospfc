@@ -1,7 +1,7 @@
-section {
+body {
     height: 100vh;
     background-image: url(../../../public/images/bg.png);
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }   
