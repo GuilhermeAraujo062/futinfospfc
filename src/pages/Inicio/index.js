@@ -1,7 +1,10 @@
+import styles from './Inicio.module.css'
 
 function Inicio(){
     return (
-        "s"
+        <section className={styles.inicio}>
+            
+        </section>
     )
 }
 

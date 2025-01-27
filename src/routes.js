@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Inicio from "./pages/Inicio";
 import Header from "./components/Header";
 
-function App() {
+function AppRoutes() {
   return (
     <BrowserRouter>
       <Header/>
@@ -17,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppRoutes;
