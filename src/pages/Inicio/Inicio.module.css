@@ -1,6 +1,14 @@
-body {
+.inicio {
     background-image: url(../../../public/images/bg.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-}   
+    height: 100vh;
+}
+
+@media (max-width: 1444px) {
+    .inicio {
+        background-color: #1D2228;
+        background-size: contain;
+    }
+}
