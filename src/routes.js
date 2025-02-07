@@ -1,12 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Inicio from "./pages/Inicio";
-import Header from "./components/Header";
 
 function AppRoutes() {
   return (
     <BrowserRouter>
-      <Header/>
-
       <Routes>
         <Route path="/" element={<Inicio />}/>
 
