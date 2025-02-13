@@ -54,6 +54,20 @@
     opacity: 50%;
 }
 
+.button {
+    padding: 20px 40px;
+    border-radius: 20px;
+    background-color: var(--cor-secundaria);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.button:hover {
+    background-color: #a80417;
+}
+
 @-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
