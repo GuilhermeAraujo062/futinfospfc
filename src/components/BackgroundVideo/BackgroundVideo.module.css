@@ -61,10 +61,13 @@
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 700 ;
+    transition: .6s;
 }
 
 .button:hover {
+    transition: .6s;
+    padding: 20px 60px;
     background-color: #a80417;
 }
 
