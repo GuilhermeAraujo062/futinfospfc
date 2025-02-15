@@ -3,6 +3,7 @@
     text-decoration: none;
     cursor: pointer;
     letter-spacing: 1px;
+    transition: .2s;
 }
 
 .linkDestacado {
@@ -11,5 +12,5 @@
 
 .link:hover {
     scale: 1.5;
-    transition: 0.2s;
+    transition: .2s;
 }
