@@ -1,10 +1,9 @@
 import Header from "components/Header";
 
-function Sobre() {
+function Elenco () {
     return (
         <Header/>
-        
     )
 }
 
-export default Sobre;
+export default Elenco;
