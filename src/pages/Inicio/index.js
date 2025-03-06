@@ -1,4 +1,4 @@
-import styles from './Inicio.module.css'
+import styles from './Inicio.module.css';
 import BackgroundVideo from 'components/BackgroundVideo';
 
 function Inicio(){
