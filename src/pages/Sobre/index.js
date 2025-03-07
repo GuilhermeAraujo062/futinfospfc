@@ -22,43 +22,46 @@ function Sobre() {
                 <section className={styles.patrocinadores}>
                     <div>
                         <h2>Patrocinador Máster</h2>
-                        <img src="https://cdn.saopaulofc.net/2024/01/superbet.png" alt="logo"></img>
+                        <div><img src="https://cdn.saopaulofc.net/2024/01/superbet.png" alt="logo"></img></div>
                     </div>
 
                     <div>
                         <h2>Estádio</h2>
-                        <img src="https://cdn.saopaulofc.net/2024/01/morumbis-2.png" alt="logo"></img>
+                        <div><img src="https://cdn.saopaulofc.net/2024/01/morumbis-2.png" alt="logo"></img></div>
                     </div>
 
                     <div>
                         <h2>Patrocinadores</h2>
                         <div>
-                            <img src="https://cdn.saopaulofc.net/2024/01/newbalance-e1706125292382.png" alt="logo"></img>
-                            <img src="https://cdn.saopaulofc.net/2024/01/ademicon-e1706125299461.png" alt="logo"></img>
-                            <img src="https://cdn.saopaulofc.net/2024/01/abc-1.png" alt="logo"></img>
-                            <img src="https://cdn.saopaulofc.net/2024/08/blue.png" alt="logo"></img>
-                            <img src="https://cdn.saopaulofc.net/2024/07/konami-e1720189092459.png" alt="logo"></img>
-                            <img src="https://cdn.saopaulofc.net/2025/02/logo-viva-tricolor_site-e1739563049186.png" alt="logo"></img>
-                            <img src="https://cdn.saopaulofc.net/2024/12/elgin-logo-2-2-e1735217506442.png" alt="logo"></img>
-                            <img src="https://cdn.saopaulofc.net/2024/11/texas-e1730495282329.png" alt="logo"></img>
-                            <img src="https://cdn.saopaulofc.net/2024/12/matrix-e1733406786994.png" alt="logo"></img>
-                            <img src="https://cdn.saopaulofc.net/2025/03/bis-1-e1741275211355.png" alt="logo"></img>
+                            <div className={styles.logos}>
+                                <img src="https://cdn.saopaulofc.net/2024/01/newbalance-e1706125292382.png" alt="logo"></img>
+                                <img src="https://cdn.saopaulofc.net/2024/01/ademicon-e1706125299461.png" alt="logo"></img>
+                                <img src="https://cdn.saopaulofc.net/2024/01/abc-1.png" alt="logo"></img>
+                                <img src="https://cdn.saopaulofc.net/2024/08/blue.png" alt="logo"></img>
+                                <img src="https://cdn.saopaulofc.net/2024/07/konami-e1720189092459.png" alt="logo"></img>
+                                <img src="https://cdn.saopaulofc.net/2025/02/logo-viva-tricolor_site-e1739563049186.png" alt="logo"></img>
+                                <img src="https://cdn.saopaulofc.net/2024/12/elgin-logo-2-2-e1735217506442.png" alt="logo"></img>
+                                <img src="https://cdn.saopaulofc.net/2024/11/texas-e1730495282329.png" alt="logo"></img>
+                                <img src="https://cdn.saopaulofc.net/2024/12/matrix-e1733406786994.png" alt="logo"></img>
+                                <img src="https://cdn.saopaulofc.net/2025/03/bis-1-e1741275211355.png" alt="logo"></img>
+                            </div>
                         </div>
                     </div>
                 </section>
 
                 <section className={styles.presidencia}>
                     <h2>Presidência</h2>
-                    <div>
-                        <img src="https://cdn.saopaulofc.net/2022/08/julio-casares.jpg" alt="foto"></img>
-                        <h3>Julio Casares</h3>
-                        <h4>Presidente</h4>
-                    </div>
-
-                    <div>
-                        <img src="https://cdn.saopaulofc.net/2022/08/massis.jpg" alt="foto"></img>
-                        <h3>Harry Massis Junior</h3>
-                        <h4>Vice-Presidente</h4>
+                    <div className={styles.info}>
+                        <div>
+                            <img src="https://cdn.saopaulofc.net/2022/08/julio-casares.jpg" alt="foto"></img>
+                            <h3>Julio Casares</h3>
+                            <h4>Presidente</h4>
+                        </div>
+                        <div>
+                            <img src="https://cdn.saopaulofc.net/2022/08/massis.jpg" alt="foto"></img>
+                            <h3>Harry Massis Junior</h3>
+                            <h4>Vice-Presidente</h4>
+                        </div>
                     </div>
                 </section>
             </section>

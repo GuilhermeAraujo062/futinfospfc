@@ -1,7 +1,74 @@
+.sobre {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+}
+
 .historia {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    align-items: center;
     text-align: justify;
+    padding: 50px 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.068);
+}
+
+.historia h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.historia p {
+    max-width: 1200px;
+}
+
+.patrocinadores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px 0px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.068);
+}
+
+.patrocinadores h2 {
+    padding: 20px 0;
+}
+
+.patrocinadores > div {
+    width: 100%;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.presidencia {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    gap: 30px;
+}
+
+.presidencia h4 {
+    color: var(--cor-secundaria);
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.info img {
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.247);
 }
