@@ -6,7 +6,7 @@ function Sobre() {
         <section>
             <Header />
             <section className={styles.sobre}>
-                <div className={styles.historia}>
+                <section className={styles.historia}>
                     <h1>Desde 1930</h1>
                     <p>Fundado em 25 de janeiro de 1930 e marcado por histórias de superação, como a refundação do clube em 1935 ou os tempos difíceis da construção do MorumBIS, o Tricolor Mais Querido do planeta é o único clube brasileiro a ter conquistado a América e o Mundo por três vezes. É ainda o único Tricampeão consecutivo do Campeonato Brasileiro e o primeiro a conquistá-lo por seis vezes. Tri-Hexacampeão Brasileiro.</p>
 
@@ -17,7 +17,50 @@ function Sobre() {
                     <p>Fora de campo, o Tricolor desafiou os críticos e a lógica e construiu o maior estádio particular do Brasil, o MorumBIS. Seguiu pioneiro em sua aposta na infraestrutura como pilar da excelência no esporte, erguendo ao longo do tempo seu Centro de Treinamento e o Centro de Formação de Atletas. O resultado? O mundo conheceu três vezes.</p>
 
                     <p>Dono de um patrimônio invejável, detentor de títulos inalcançáveis para muitos e em movimento constante em busca da excelência, o Tricolor Paulista faz jus a seu hino: dentre os grandes, és o primeiro!</p>
-                </div>
+                </section>
+
+                <section className={styles.patrocinadores}>
+                    <div>
+                        <h2>Patrocinador Máster</h2>
+                        <img src="https://cdn.saopaulofc.net/2024/01/superbet.png" alt="logo"></img>
+                    </div>
+
+                    <div>
+                        <h2>Estádio</h2>
+                        <img src="https://cdn.saopaulofc.net/2024/01/morumbis-2.png" alt="logo"></img>
+                    </div>
+
+                    <div>
+                        <h2>Patrocinadores</h2>
+                        <div>
+                            <img src="https://cdn.saopaulofc.net/2024/01/newbalance-e1706125292382.png" alt="logo"></img>
+                            <img src="https://cdn.saopaulofc.net/2024/01/ademicon-e1706125299461.png" alt="logo"></img>
+                            <img src="https://cdn.saopaulofc.net/2024/01/abc-1.png" alt="logo"></img>
+                            <img src="https://cdn.saopaulofc.net/2024/08/blue.png" alt="logo"></img>
+                            <img src="https://cdn.saopaulofc.net/2024/07/konami-e1720189092459.png" alt="logo"></img>
+                            <img src="https://cdn.saopaulofc.net/2025/02/logo-viva-tricolor_site-e1739563049186.png" alt="logo"></img>
+                            <img src="https://cdn.saopaulofc.net/2024/12/elgin-logo-2-2-e1735217506442.png" alt="logo"></img>
+                            <img src="https://cdn.saopaulofc.net/2024/11/texas-e1730495282329.png" alt="logo"></img>
+                            <img src="https://cdn.saopaulofc.net/2024/12/matrix-e1733406786994.png" alt="logo"></img>
+                            <img src="https://cdn.saopaulofc.net/2025/03/bis-1-e1741275211355.png" alt="logo"></img>
+                        </div>
+                    </div>
+                </section>
+
+                <section className={styles.presidencia}>
+                    <h2>Presidência</h2>
+                    <div>
+                        <img src="https://cdn.saopaulofc.net/2022/08/julio-casares.jpg" alt="foto"></img>
+                        <h3>Julio Casares</h3>
+                        <h4>Presidente</h4>
+                    </div>
+
+                    <div>
+                        <img src="https://cdn.saopaulofc.net/2022/08/massis.jpg" alt="foto"></img>
+                        <h3>Harry Massis Junior</h3>
+                        <h4>Vice-Presidente</h4>
+                    </div>
+                </section>
             </section>
         </section>
     )
