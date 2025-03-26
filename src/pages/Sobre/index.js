@@ -19,6 +19,13 @@ function Sobre() {
                     <p>Dono de um patrimônio invejável, detentor de títulos inalcançáveis para muitos e em movimento constante em busca da excelência, o Tricolor Paulista faz jus a seu hino: dentre os grandes, és o primeiro!</p>
                 </section>
 
+                <section className={styles.titulos}>
+                    <h2>Titulos</h2>
+                    <div>
+                        
+                    </div>
+                </section>
+
                 <section className={styles.patrocinadores}>
                     <div>
                         <h2>Patrocinador Máster</h2>
