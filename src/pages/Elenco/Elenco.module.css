@@ -1,0 +1,9 @@
+.elenco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo {
+    padding: 20px;
+}

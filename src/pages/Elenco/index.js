@@ -15,8 +15,27 @@ function Elenco () {
         <section>
             <Header/>
             <section className={styles.elenco}>
-                <div>
+
+                <div className={styles.campo}>
                     <img src='/images/campo.jpg' alt='Campo de Futebol'></img>
+                    <div className={styles.titulares}>
+                        <div>Rafael</div>
+                        <div>Rafael</div>
+                        <div>Rafael</div>
+                        <div>Rafael</div>
+                        <div>Rafael</div>
+                        <div>Rafael</div>
+                        <div>Rafael</div>
+                        <div>Rafael</div>
+                        <div>Rafael</div>
+                        <div>Rafael</div>
+                        <div>Rafael</div>
+                    </div>
+                </div>
+
+
+                <div className={styles.reservas}>
+
                 </div>
             </section>
         </section>
