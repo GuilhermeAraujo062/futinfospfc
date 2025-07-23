@@ -19,17 +19,12 @@ function Elenco () {
                 <div className={styles.campo}>
                     <img src='/images/campo.jpg' alt='Campo de Futebol'></img>
                     <div className={styles.titulares}>
-                        <div>Rafael</div>
-                        <div>Rafael</div>
-                        <div>Rafael</div>
-                        <div>Rafael</div>
-                        <div>Rafael</div>
-                        <div>Rafael</div>
-                        <div>Rafael</div>
-                        <div>Rafael</div>
-                        <div>Rafael</div>
-                        <div>Rafael</div>
-                        <div>Rafael</div>
+
+                        <div className={`${styles.jogador} ${styles.posicao_gl}`}>
+                            <img src="https://i.pinimg.com/736x/64/59/d0/6459d032fbc23a77eb7e7a35d52d8d4c.jpg" className={styles.img_jogador}></img>
+                            <h3 className={styles.nome}>Rafael</h3>
+                        </div>
+                        
                     </div>
                 </div>
 

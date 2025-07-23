@@ -5,5 +5,29 @@
 }
 
 .campo {
+    position: relative;
     padding: 20px;
+}
+
+.jogador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.posicao_gl {
+    position: absolute;
+    top: 195px;
+    left: 60px;
+}
+
+.img_jogador {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.nome {
+    color: white;
 }
