@@ -1,0 +1,25 @@
+.reservas {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: gray;
+}
+
+.jogador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.img_jogador {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.nome {
+    color: white;
+}
