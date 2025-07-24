@@ -1,5 +1,8 @@
-import JogadoresTitulares from "components/JogadoresTitulares";
 import styles from "./JogadoresReservas.module.css";
+import { register } from 'swiper/element/bundle'
+
+register();
+
 
 function JogadoresReservas() {
     return(

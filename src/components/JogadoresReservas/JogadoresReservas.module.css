@@ -1,10 +1,13 @@
 .reservas {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 800px;
+    justify-content: center;
     gap: 30px;
     padding: 20px;
     border-radius: 20px;
-    background-color: gray;
+    background-color: rgba(148, 148, 148, 0.418);
 }
 
 .jogador {

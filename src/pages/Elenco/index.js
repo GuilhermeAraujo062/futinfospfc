@@ -3,7 +3,7 @@ import styles from "./Elenco.module.css"
 import { useEffect } from "react";
 import { getFutInfo } from "FutService";
 import JogadoresTitulares from "components/JogadoresTitulares";
-import JogadoresReservas from "components/JogadoresReserva";
+import JogadoresReservas from "components/JogadoresReservas";
 
 function Elenco() {
 
