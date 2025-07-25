@@ -3,7 +3,7 @@ import styles from "./JogadoresTitulares.module.css";
 function JogadoresTitulares() {
     return (
         <div className={styles.campo}>
-            <img src='https://i.pinimg.com/736x/f8/6d/bc/f86dbc6179f41ca07be28bea859d15f3.jpg' alt='Campo de Futebol'></img>
+            <img src='https://i.pinimg.com/736x/3c/d2/2b/3cd22b9b0c184d22163e9d1a8786a6f0.jpg' alt='Campo de Futebol'></img>
             <div className={styles.titulares}>
 
                 <div className={`${styles.jogador} ${styles.posicao_gl}`}>
