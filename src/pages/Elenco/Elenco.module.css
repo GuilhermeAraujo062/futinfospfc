@@ -1,5 +1,9 @@
 .elenco {
     display: flex;
     flex-direction: column;
+    max-width: 1200px;
     align-items: center;
+    margin: auto;
+    height: 100vh;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
 }
