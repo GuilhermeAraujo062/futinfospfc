@@ -1,0 +1,37 @@
+.container {
+    position: relative;
+}
+
+/* Ícone de abrir/fechar */
+.icon {
+    display: none;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+}
+
+/* Estilos base do menu */
+.menu_mobile {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    width: 100vw;
+    top: 70px;
+    right: 0px;
+    background-color: #181e27;
+    z-index: 1;
+}
+
+/* Classe ativada quando o menu está aberto */
+.aberto {
+    display: flex;
+}
+
+/* Media Query para mobile */
+@media (max-width: 820px) {
+    .icon {
+        display: block;
+    }
+}

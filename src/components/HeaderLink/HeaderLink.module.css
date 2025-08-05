@@ -1,4 +1,5 @@
 .link {
+    padding-block: 10px;
     color: var(--cor-texto);
     text-decoration: none;
     cursor: pointer;

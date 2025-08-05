@@ -3,7 +3,7 @@ import styles from "./Sobre.module.css";
 
 function Sobre() {
     return (
-        <section>
+        <>
             <Header />
             <section className={styles.sobre}>
                 <section className={styles.historia}>
@@ -72,7 +72,7 @@ function Sobre() {
                     </div>
                 </section>
             </section>
-        </section>
+        </>
     )
 }
 

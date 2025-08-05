@@ -1,13 +1,17 @@
 import styles from './Header.module.css';
 import MenuLink from '../HeaderLink';
-function Header() {
+import MenuMobile from 'components/MenuMobile';
 
+function Header() {
+    
     return (
         <header>
             <div className={styles.logo}>
                 <p>SÃO PAULO FC</p>
                 <img src='/images/logotipo-spfc.png' alt='Logo'></img>
             </div>
+
+            <MenuMobile/>
 
             <nav>
                 <MenuLink to = '/'>

@@ -54,3 +54,9 @@ nav {
         filter: brightness(200%);
     }
 }
+
+@media (max-width: 820px) {
+    nav {
+        display: none;
+    }
+}
